@@ -54,7 +54,7 @@ docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
 
 4. Configura las herramientas:
 
-   - **Java 21** (verifica con `readlink -f $(which java)`)
+   - **Java 21** (verifica con `docker exec jenkins java -version`)
    - **Maven 3.x** (`/usr/share/maven`)
    - **SonarQube**:
 
